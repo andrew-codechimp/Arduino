@@ -25,4 +25,11 @@ void loop() {
 		Keyboard.println(principles[random(0, NUMBER_OF_PRINCIPLES)]);
 		delay(500);
 	}
+//        if (digitalRead(1) == LOW)
+//	{
+//		Keyboard.press(MODIFIERKEY_GUI);
+//		Keyboard.set_key1(KEY_L);
+//                Keyboard.send_now();
+//		delay(500);
+//	}
 }
